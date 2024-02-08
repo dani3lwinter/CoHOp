@@ -32,7 +32,7 @@ def run_once(dataset, args, seed=0, config=None):
 
     # load dataset and split indices
     g, labels, idx_train, idx_val, idx_test = load_data(
-        dataset, "../data", seed=seed,
+        dataset, "data", seed=seed,
         labelrate_train=args.train_labelrate,
         labelrate_val=args.val_labelrate
     )
