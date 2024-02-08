@@ -1,0 +1,64 @@
+defaults:
+    batch_size: -1
+    hidden_dim: -1
+    n_epochs: 200
+    patience: 50
+    n_iterations: 5
+    threshold: 0.5
+    histogram_depth: 10
+    dropout_ratio: 0
+
+a-computer:
+    gamma: 0.01
+    lr: 0.01
+    smoothing_radius: 0.05
+    threshold: 0.2
+    weight_decay: 0.0
+
+a-photo:
+    gamma: 0.05
+    lr: 0.01
+    smoothing_radius: 0.1
+    threshold: 0.4
+    weight_decay: 0.0005
+
+citeseer:
+    gamma: 0.005
+    lr: 0.1
+    smoothing_radius: 0.5
+    threshold: 0.6
+    weight_decay: 0.0005
+
+pubmed:
+    gamma: 0.01
+    lr: 0.1
+    smoothing_radius: 0.6
+    threshold: 0.2
+    weight_decay: 0.0001
+
+cora:
+    gamma: 0.025
+    lr: 0.1
+    smoothing_radius: 0.4
+    threshold: 0.5
+    weight_decay: 0.0005
+
+ogbn-arxiv:
+    gamma: 0.0
+    lr: 0.1
+    smoothing_radius: 0.6
+    weight_decay: 0.001
+    hidden_dim: 512
+    n_iterations: 1
+    patience: 100
+
+ogbn-products:
+    gamma: 0.5
+    lr: 0.001
+    smoothing_radius: 0.1
+    weight_decay: 0.0
+    hidden_dim: 1024
+    n_epochs: 1
+    patience: 1
+    n_iterations: 1
+    batch_size: 2000
